@@ -1,2 +1,2 @@
 # pytorch-neural-network
-Egyszerű PyTorch neurális háló tanulási célokra
+A simple PyTorch neural network for learning purposes
