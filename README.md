@@ -1,30 +1,23 @@
 # pytorch-neural-network
-A simple PyTorch neural network for learning purposes
-# pytorch-neural-network
 
-This repository contains a simple neural network built with **PyTorch**, designed for educational purposes. The project includes implementations of neural networks using popular datasets like **MNIST** and **CIFAR-10** to help users understand the basics of machine learning and deep learning with PyTorch.
+## Projekt Leírása
 
-## Project Overview
+Ez egy egyszerű **PyTorch** neurális háló projekt, amely az **MNIST** és **CIFAR-10** adathalmazokon működik. A célja, hogy bemutassa, hogyan hozhatunk létre egy egyszerű neurális hálót **PyTorch** használatával. A projekt segít megérteni a neurális hálók működését és tanítási folyamatát.
 
-This project demonstrates how to train a neural network on the **MNIST** and **CIFAR-10** datasets. The network uses **Convolutional Neural Networks (CNNs)**, which are widely used for image recognition tasks.
+A projekt tartalmaz egy **Konvolúciós Neurális Hálót (CNN)**, amelyet képek osztályozására használunk.
 
-### Features:
-- Basic neural network implementation for **MNIST** dataset.
-- CNN model for **CIFAR-10** dataset.
-- Data augmentation techniques like random rotation and affine transformations.
-- Optimized for learning purposes and hands-on experience with PyTorch.
+## Követelmények
 
-## Requirements
+A következő Python csomagok szükségesek a projekt futtatásához:
+- **Python 3.7 vagy újabb**
+- **torch** (PyTorch)
+- **torchvision** (Képadatok kezelése)
+- **numpy**
 
-- Python 3.7 or newer
-- PyTorch 1.9.0+
-- torchvision 0.8.2+
-- numpy
+A csomagok telepítése az alábbi parancsokkal lehetséges:
 
-## Installation
-
-To get started with this project, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/OliverSzucsAI/pytorch-neural-network.git
+```bash
+pip install torch torchvision numpy
+git clone https://github.com/OliverSzucsAI/pytorch-neural-network.git
+cd pytorch-neural-network
+pip install -r requirements.txt
